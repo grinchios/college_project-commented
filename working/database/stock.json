@@ -1,0 +1,20 @@
+{
+    "data": [
+        {
+            "0": {
+                "alert-level": "4 bottles",
+                "name": "Hydrogen peroxide",
+                "price": 9.95,
+                "stock-level": "90 bottles"
+            }
+        },
+        {
+            "1": {
+                "alert-level": "1 box",
+                "name": "Blue hair dye",
+                "price": 15.0,
+                "stock-level": "5 boxes"
+            }
+        }
+    ]
+}

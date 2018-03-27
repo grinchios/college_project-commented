@@ -1,0 +1,44 @@
+{
+    "data": [
+        {
+            "0": {
+                "name": "Hair Dye",
+                "price": 34.9,
+                "stock": [
+                    [
+                        0,
+                        "Hydrogen peroxide",
+                        9.95,
+                        "2.0"
+                    ],
+                    [
+                        1,
+                        "Blue hair dye",
+                        15.0,
+                        "1.0"
+                    ]
+                ]
+            }
+        },
+        {
+            "1": {
+                "price": 74.85,
+                "name": "Blue Hair Dye",
+                "stock": [
+                    [
+                        0,
+                        "Hydrogen peroxide",
+                        9.95,
+                        "3.0"
+                    ],
+                    [
+                        1,
+                        "Blue hair dye",
+                        15.0,
+                        "3.0"
+                    ]
+                ]
+            }
+        }
+    ]
+}
