@@ -5,6 +5,10 @@ This software is to be run on a linux distro
 due it's linux file calling functions within
 the login form
 
+This repo does not work due to the comments however
+in the folder called working is the working version
+without the objective comments
+
 ## Admin credentials
 
 username: admin
