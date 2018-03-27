@@ -1,5 +1,5 @@
 # -*- coding: utf-8 -*-
-#todo add  new table from add button and then add to file
+
 import sys
 
 sys.path = ['..'] + sys.path
