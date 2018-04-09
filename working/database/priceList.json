@@ -2,19 +2,13 @@
     "data": [
         {
             "0": {
-                "name": "Hair Dye",
-                "price": 34.9,
+                "price": 3.0,
+                "name": "Nail polish",
                 "stock": [
                     [
-                        0,
-                        "Hydrogen peroxide",
-                        9.95,
-                        "2.0"
-                    ],
-                    [
-                        1,
-                        "Blue hair dye",
-                        15.0,
+                        2,
+                        "Yellow nail polish",
+                        3.0,
                         "1.0"
                     ]
                 ]
@@ -22,22 +16,22 @@
         },
         {
             "1": {
-                "price": 74.85,
-                "name": "Blue Hair Dye",
                 "stock": [
                     [
                         0,
-                        "Hydrogen peroxide",
-                        9.95,
-                        "3.0"
+                        "Hydrogen Peroxide",
+                        5.0,
+                        "2.0"
                     ],
                     [
                         1,
                         "Blue hair dye",
-                        15.0,
-                        "3.0"
+                        13.0,
+                        "1.0"
                     ]
-                ]
+                ],
+                "name": "Hair dye",
+                "price": 23.0
             }
         }
     ]

@@ -79,7 +79,7 @@ class stock():
         if val is not True: QMessageBox.about(self.ui, "Error", val); return False
 
         #  stock price validation
-        val = validate.checkRange(self.ui.dsbStockPrice.value(), 0.00, 1000.00)
+        val = validate.checkRange(self.ui.dsbStockPrice.value(), 0.01, 1000.00)
         if val is not True: QMessageBox.about(self.ui, "Error", val); return False
 
         val = validate.isFloat(self.ui.dsbStockPrice.value())

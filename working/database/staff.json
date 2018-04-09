@@ -2,54 +2,15 @@
     "data": [
         {
             "0": {
-                "username": "Callumtheboss",
-                "dob": "1999-03-02",
-                "sex": false,
-                "name": "Callum",
-                "password": {
-                    "admin": true,
-                    "password": "5768790579002999718827900569353521123038549754615891239598058557"
-                },
-                "surname": "Pritchard"
-            }
-        },
-        {
-            "1": {
-                "username": "admin",
-                "dob": "1999-12-26",
-                "sex": false,
-                "name": "Bill",
-                "password": {
-                    "admin": true,
-                    "password": "5461629382004156286814368777909917863460876804636979909950615663"
-                },
-                "surname": "Jones"
-            }
-        },
-        {
-            "2": {
-                "dob": "2000-01-25",
-                "username": "Zulu",
-                "surname": "Zula",
-                "sex": true,
-                "name": "Zule",
-                "password": {
-                    "admin": false,
-                    "password": "5461629382004156286814368777909917863460876804636979909950615663"
-                }
-            }
-        },
-        {
-            "3": {
                 "username": "dan",
-                "dob": "1999-03-23",
-                "sex": true,
-                "name": "dan",
                 "password": {
                     "admin": false,
                     "password": "6860523714029307017074918551672306167857676637991536081120043386"
                 },
-                "surname": "some"
+                "name": "Dan",
+                "sex": true,
+                "dob": "1980-07-10",
+                "surname": "Smith"
             }
         }
     ]

@@ -84,8 +84,8 @@ class validate():
         else:
             return 'Email entered isn\'t valid'
 
-    def checkLength(strToCheck, reqLen):
-        if len(strToCheck) < reqLen:
+    def checkLength(strToCheck,reqLenMin, reqLenMax):
+        if reqLenMin <= (strToCheck) < reqLenMax:
             return True
         else:
             return strToCheck + ' is too long, must be {0} characters long'.format(str(reqLen-1))

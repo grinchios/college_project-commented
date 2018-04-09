@@ -110,6 +110,7 @@ class treatments():
         #  fills the combo box for stock selection
         #  tmparr is used to fill the combo box
         tmparr = []
+        self.ui.txtTreatmentStockName.clear()
         file = self.stockFile
         for i in range(len(self.stockFile)):
 
@@ -151,14 +152,14 @@ class treatments():
         if val is not True: QMessageBox.about(self.ui, "Error", val); return False
 
         #  treatment price
-        val = validate.checkRange(self.ui.dsbTreatmentPrice.value(), 0.00, 1000.00)
+        val = validate.checkRange(self.ui.dsbTreatmentPrice.value(), 0.01, 1000.00)
         if val is not True: QMessageBox.about(self.ui, "Error", val); return False
 
         val = validate.isFloat(self.ui.dsbTreatmentPrice.value())
         if val is not True: QMessageBox.about(self.ui, "Error", val); return False
 
         #  treatment stock amounts
-        val = validate.checkRange(self.ui.dsbTreatmentStockAmount.value(), 0.00, 1000.00)
+        val = validate.checkRange(self.ui.dsbTreatmentStockAmount.value(), 0.01, 1000.00)
         if val is not True: QMessageBox.about(self.ui, "Error", val); return False
 
         val = validate.isFloat(self.ui.dsbTreatmentStockAmount.value())

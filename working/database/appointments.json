@@ -1,3 +1,28 @@
 {
-    "data": []
+    "data": [
+        {
+            "0": {
+                "staff": "0",
+                "cost": 3.0,
+                "customer": "0",
+                "amount-paid": 0.0,
+                "treatment": "0",
+                "date": "2018-03-27",
+                "time": "09:00",
+                "comments": "Paying next week"
+            }
+        },
+        {
+            "1": {
+                "staff": "0",
+                "cost": 23.0,
+                "customer": "1",
+                "amount-paid": 27.0,
+                "treatment": "1",
+                "date": "2018-03-26",
+                "time": "10:00",
+                "comments": "Left a tip"
+            }
+        }
+    ]
 }

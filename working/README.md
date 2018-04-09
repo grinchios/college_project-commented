@@ -2,7 +2,7 @@
 ## Callum Pritchard
 
 This software is to be run on a linux distro
-due to it's linux file calling functions within
+due it's linux file calling functions within
 the login form
 
 ## Admin credentials
@@ -50,7 +50,6 @@ instructions can be found here:
 https://cloud.google.com/genomics/downloading-credentials-for-api-access
 
 The file must be stored in project root and named as listed above to work
-unless already supplied
 
 ## Issues
 
@@ -61,19 +60,7 @@ would not start
 ## Execution
 
 The program must be run from project root and with command
-
-`python3 login.py`
-
-or 
-
-`./login.py`
-
-Should the login form not work you can also run the mainmenu.py
-file via the project root with this command:
-
-`python3 bin/forms/mainMenu.py Moderator True`
-
-`./bin/forms/mainMenu.py Moderator True`
+python3 login.py
 
 The program loads with 1280x720 resolution and works best on any
 resolution equal to or better than it, it doesn't support scaling
@@ -82,7 +69,7 @@ resolution equal to or better than it, it doesn't support scaling
 
 The email regular expression used is from
 
-http://www.emailregex.com
+emailregex.com
 
 The postcode regular expression is an optimised version of the below (page 6)
 

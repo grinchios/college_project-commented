@@ -2,18 +2,26 @@
     "data": [
         {
             "0": {
-                "alert-level": "4 bottles",
-                "name": "Hydrogen peroxide",
-                "price": 9.95,
-                "stock-level": "90 bottles"
+                "stock-level": "10 bottles",
+                "price": 5.0,
+                "name": "Hydrogen Peroxide",
+                "alert-level": "30 bottles"
             }
         },
         {
             "1": {
-                "alert-level": "1 box",
+                "stock-level": "90 boxes",
+                "price": 13.0,
                 "name": "Blue hair dye",
-                "price": 15.0,
-                "stock-level": "5 boxes"
+                "alert-level": "3 boxes"
+            }
+        },
+        {
+            "2": {
+                "stock-level": "8 pots",
+                "price": 3.0,
+                "name": "Yellow nail polish",
+                "alert-level": "1 pot"
             }
         }
     ]

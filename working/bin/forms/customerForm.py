@@ -117,7 +117,7 @@ class customer():
             if val is not True: QMessageBox.about(self.ui, "Error", val); return False
 
             #  length validation
-            val = validate.checkLength(self.ui.txtCustomerPhoneNumber.text(), 12)
+            val = validate.checkLength(self.ui.txtCustomerPhoneNumber.text(), 11, 12)
             if val is not True: QMessageBox.about(self.ui, "Error", val); return False
 
         else:
