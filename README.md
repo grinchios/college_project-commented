@@ -5,10 +5,6 @@ This software is to be run on a linux distro
 due it's linux file calling functions within
 the login form
 
-This repo does not work due to the comments however
-in the folder called working is the working version
-without the objective comments
-
 ## Admin credentials
 
 username: admin
@@ -24,6 +20,19 @@ be placed as an admin within the program, Moderator credentials
 don't exist they just load the main menu directly for ease
 
 ## Requirements
+First create a virtual environment unless
+you have admin permission and rights
+to install new software
+
+To create a virtual environment use
+
+virtualenv -p python3 [DEST]
+
+then go to DEST and use the below command
+
+source bin/activate
+
+then install the requirements
 
 Requirements are listed in req.txt,
 they must be installed with pip3,
